@@ -1,0 +1,32 @@
+[gd_scene load_steps=2 format=3 uid="uid://bm6ikffcd8hng"]
+
+[ext_resource type="Script" uid="uid://dluvjehaj25em" path="res://addons/search-plus/filter_dock.gd" id="1_cqbsj"]
+
+[node name="Window" type="PopupPanel"]
+oversampling_override = 1.0
+title = "Search"
+initial_position = 1
+size = Vector2i(508, 508)
+visible = true
+script = ExtResource("1_cqbsj")
+
+[node name="VBox" type="VBoxContainer" parent="."]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(500, 500)
+offset_left = 4.0
+offset_top = 4.0
+offset_right = 504.0
+offset_bottom = 504.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Label" type="LineEdit" parent="VBox"]
+unique_name_in_owner = true
+layout_mode = 2
+placeholder_text = "e.g. Node2D"
+
+[node name="Button" type="Button" parent="VBox"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+text = "Search"

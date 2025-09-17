@@ -1,0 +1,64 @@
+[gd_scene load_steps=2 format=3 uid="uid://hpkp6v41q65p"]
+
+[ext_resource type="PackedScene" uid="uid://de007v065kxv6" path="res://aaaa.tscn" id="1_ebsm2"]
+
+[node name="ShieldFoo" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ShieldBar" type="Control" parent="."]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Shield1" type="Control" parent="ShieldBar"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Shield2" type="Control" parent="ShieldBar"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Shield3" type="Control" parent="ShieldBar"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ShieldBoo" type="Control" parent="."]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Shield1" type="Control" parent="ShieldBoo"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Shield4" type="Control" parent="ShieldBoo"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Shield5" type="Control" parent="ShieldBoo"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="AAAA" parent="." instance=ExtResource("1_ebsm2")]
+layout_mode = 0
+
+[node name="XXX" type="Control" parent="."]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="XXX" type="Control" parent="XXX"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
