@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://bm6ikffcd8hng"]
 
-[ext_resource type="Script" uid="uid://dluvjehaj25em" path="res://addons/search-plus/src/popup_search.gd" id="1_bydro"]
+[ext_resource type="Script" uid="uid://dluvjehaj25em" path="res://addons/scene-tree-search/src/popup_search.gd" id="1_bydro"]
 
 [node name="PopupSearch" type="PopupPanel"]
 oversampling_override = 1.0

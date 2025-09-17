@@ -8,10 +8,10 @@ var tree: Tree
 var metadata_dict: Dictionary
 var shortcut = Shortcut.new()
 
-var texture_script = load("res://addons/search-plus/assets/Script.svg")
-var texture_playscene = load("res://addons/search-plus/assets/PlayScene.svg")
+var texture_script = load("res://addons/scene-tree-search/assets/Script.svg")
+var texture_playscene = load("res://addons/scene-tree-search/assets/PlayScene.svg")
 
-const POPUP_FILTER_PREFAB_PATH = "res://addons/search-plus/src/popup_seach.tscn"
+const POPUP_FILTER_PREFAB_PATH = "res://addons/scene-tree-search/src/popup_seach.tscn"
 const DEFAULT_KEYBIND = KEY_F4
 const BUTTON_SCRIPT_ID = 0
 const BUTTON_SCENE_ID = 1
@@ -90,12 +90,12 @@ func on_tree_button_clicked(item: TreeItem, column: int, id: int, mouse_button_i
 	var meta: TreeItemMeta = metadata_dict[item]
 
 	if id == BUTTON_SCRIPT_ID:
-		print(meta.script_path)
+		#print(meta.script_path)
 		EditorInterface.set_main_screen_editor("Script")
 		EditorInterface.edit_script(meta.script_path)
 		popup_search.hide_popup_window()
 	elif id == BUTTON_SCENE_ID:
-		print(meta.scene_path)
+		#print(meta.scene_path)
 		EditorInterface.set_main_screen_editor("2D")
 		EditorInterface.open_scene_from_path(meta.scene_path)
 		popup_search.hide_popup_window()
