@@ -1,14 +1,14 @@
 [gd_scene load_steps=2 format=3 uid="uid://bm6ikffcd8hng"]
 
-[ext_resource type="Script" uid="uid://dluvjehaj25em" path="res://addons/search-plus/filter_dock.gd" id="1_cqbsj"]
+[ext_resource type="Script" uid="uid://dluvjehaj25em" path="res://addons/search-plus/src/popup_search.gd" id="1_bydro"]
 
-[node name="Window" type="PopupPanel"]
+[node name="PopupSearch" type="PopupPanel"]
 oversampling_override = 1.0
 title = "Search"
 initial_position = 1
 size = Vector2i(508, 508)
 visible = true
-script = ExtResource("1_cqbsj")
+script = ExtResource("1_bydro")
 
 [node name="VBox" type="VBoxContainer" parent="."]
 unique_name_in_owner = true

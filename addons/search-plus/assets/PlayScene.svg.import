@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://he5yhnsobi71"
-path="res://.godot/imported/Script.svg-db847410bf124da2e1410439e1bfad19.ctex"
+uid="uid://cy5dsalvxu0we"
+path="res://.godot/imported/PlayScene.svg-474be7b0821cddac3dd1df9180084dce.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/search-plus/Script.svg"
-dest_files=["res://.godot/imported/Script.svg-db847410bf124da2e1410439e1bfad19.ctex"]
+source_file="res://addons/search-plus/assets/PlayScene.svg"
+dest_files=["res://.godot/imported/PlayScene.svg-474be7b0821cddac3dd1df9180084dce.ctex"]
 
 [params]
 
